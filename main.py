@@ -86,8 +86,7 @@ def response(voice):                  # response fonksiyonu, kullanıcının kom
 
         # Toplu Programlar
         elif "programı aç" in voice or "" in voice:  # "programları aç" veya "" komutlarıyla belirtilen programları açar.
-           os.startfile("C:\\Users\\")  # Belirtilen klasörü açar.
-
+           os.startfile("C:\\Users")  # Belirtilen klasörü açar.
            speak("Tabii Efendim, programı açıyorum")
         
 def speak(string):                    # speak fonksiyonu, verilen metni sese çevirir ve çalar.
